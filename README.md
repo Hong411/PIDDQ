@@ -30,15 +30,12 @@ Using infrared (IR) spectroscopy as a model system, we integrate density functio
 
 ## Project Structure
 PIDDQ/
-├── configs/ # Configuration files
- │ └── chemical_classes.py # Functional Groups
 ├── data/ # Data directory (data.pkl used for example)
 │ ├── dicts/ # Pickled dictionaries
 │ ├── npy/ # Numpy array files
 │ ├── data.pkl/ # Examples Dataset, replace with relevant experimental and theoretical data.
 │ └── data_processing.py # Data Preprocessing 
 ├── models/ # Model implementations
-│ ├── checkpoints/ # temp saving
 │ ├── saved_models/ # trained models
 │ └──  model_operations.py # GPR and NN
 ├── utils/ # Utility functions
