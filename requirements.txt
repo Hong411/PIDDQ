@@ -1,0 +1,27 @@
+# requirements.txt
+# Core dependencies
+
+# GPU acceleration
+cupy-cuda12x>=12.0.0        # For CUDA 12.x, change based on your CUDA version
+cupy>=11.0.0                # For CPU fallback
+
+# Gaussian Process Regression
+gpflow>=2.5.0
+
+# Core scientific computing
+joblib>=1.1.0
+matplotlib>=3.4.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+seaborn>=0.11.0
+tqdm>=4.62.0
+
+# Deep learning
+tensorflow>=2.8.0
+
+# Chemistry
+rdkit-pypi>=2022.03.1
+
+# Optional: For data handling
+pandas>=1.3.0
